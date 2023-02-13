@@ -1,0 +1,69 @@
+<html>
+
+  <head>
+    <!-- CSS Linking, JavaScript, Favicon, Title, and Font Code -->
+    <link rel="stylesheet" href="style.css">
+    <script src="carquiz.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <title> Car Quiz </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
+  </head>
+  <!--  Body Starts Here-->
+  <body>
+    <div class="container">
+    <header></header>
+
+    <main>
+      <h1> Car Quiz </h1>
+      <!--  Nav Bar -->
+      <nav>
+      <ul>
+        <li><a href="caravan.html">Caravan </a></li>
+        <li><a href="santafe.html"> Santa Fe</a></li>
+        <li> <a href="aboutus.html"> About Us </a> </li>
+        <li> <a href="carquiz.html"> Car Quiz </a> </li>
+        <li> <a href="index.html"> Home </a> </li>
+        </ul>
+      </nav>
+      <!--  Button Code and Text Code to display special -->
+      <button type="button" onclick="Special()"> Click me to display the special! </button>
+      <p id="demo"> Special will appear here. </p>
+      <hr>
+      <!-- Credit Score Check  -->
+      <p>Is your credit score above 500? Check if you are approved below. <input id="checkfin"><button onclick = "checkF()">Submit</button></p>
+      <p id="demo2">Answer will appear here. </p>
+      <hr>
+      <!--  Enter Name Input -->
+      <p>Enter your name:<input id="char"><button onclick="checkName()">Submit</button></p>
+      <p id="resPara" > <span id="sub"></span></p>
+      <hr>
+      <!--  Vehicle Choose Radio Button Code -->
+      <br><b> Choose the vehicle you desire: </b><br>
+      <input type="radio" id="kona" value="kona">Kona<br>
+      <input type="radio" id="santafe" value="santafe">Santa Fe<br>
+      <input type="radio" id="caravan" value="caravan">Caravan<br>
+      <input type="radio" id="impala" value="impala">Impala<br><br>
+      <button type="button" onclick=" checkButton()"> Submit </button>
+      <br><br>
+      <hr>
+      <!-- Random Car Code -->
+      <p> Click the car to see a random car! </p>
+      <button class="button" id="car" onClick = "checkCar()"><img src="images/fusion.png"></button>
+        <p id="demo4">Answer will appear here. </p>
+      <h3 id="disp" style= "color:green"> </h3>
+      <h4 id="error" style= "color:red"> </h4>
+    </main>
+  </body>
+  <footer>
+    <div class = "footerf">
+      <p> Contact Us: 613-929-6864 </p>
+    </div>
+    <div class = "footerc"></div>
+  </footer>
+
+</html>
