@@ -1,0 +1,266 @@
+
+body {
+
+  color: black;
+  background-image: url("images/tile.png");
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+/* Heading Color */
+h1 {
+  color: red;
+}
+/* Paragraph Color */
+p {
+  color: black;
+  font-size: 150%
+}
+h2{
+  color: red;
+}
+h3{
+  color: red;
+}
+h4{
+  color: red;
+}
+/* Link Colors */
+a {
+  color: red;
+
+}
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: red;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+  size: 150;
+}
+hr{
+  color: black;
+  size: 125%;
+}
+/* -------------------------------------------------------------NAV BAR------------------------------------ */
+/* selected link */
+nav a:active {
+  color: red;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: #111;
+  /* ------------------------------------ NAV BAR ---------------------------------- */
+}
+/* Header */
+header{
+  background-image: url("images/heading.png");
+  height: 150px;
+  Width: 1000px;
+
+  margin: auto;
+
+
+}
+/* Footer  */
+footer{
+
+  height: 75px;
+  background-color: peachpuff;
+}
+/* Container */
+.container{
+
+  margin: auto;
+  width: 80%;
+  border: 3px solid red;
+  padding: 25px;
+  background-color: ivory;
+}
+/* Floating Elements Home Screen*/
+.cleft{
+  float: left;
+  width: 20%;
+
+}
+.sright{
+  float: right;
+  width: 40%
+
+}
+.returnF{
+  clear: both;
+}
+/* Floating Elements (Santa Fe) */
+.fleft{
+  float: left;
+  width: 20%;
+}
+.fright{
+  float: right;
+  width: 40%
+}
+.clr{
+  clear: both;
+}
+/* Youtube Video Div (Santa Fe)  */
+.ytvid{
+  float: right;
+  width: 60%;
+}
+.clearytvid{
+  clear: both;
+}
+/* Map Div  */
+.map{
+  float: right;
+  width: 60%;
+}
+.mapc{
+  clear: both;
+}
+/* Footer Div*/
+.footerf {
+  float: right;
+  width: 50%;
+}
+.footerc {
+  clear: both;
+}
+/* Homepage List Div  */
+.listl{
+  float: left;
+  width: 20%;
+}
+.listr{
+  float: right;
+  width: 40%;
+}
+.listclr{
+  clear:both;
+}
+.paral{
+  float: left;
+  width: 20%;
+}
+.parar{
+  float: right;
+  width: 60%;
+}
+.paraclr{
+  clear: both;
+}
+/* Image Carousel: Credit to W3 School */
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

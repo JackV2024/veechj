@@ -1,0 +1,132 @@
+<html>
+
+  <head>
+      <!-- Linking CSS-->
+    <link rel="stylesheet" href="style.css">
+
+      <!-- Favicon Code-->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+      <!-- Title -->
+    <title> Jack's Cars </title>
+
+      <!-- Font Code -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+      <!-- Div for container starts here -->
+    <div class="container">
+      <header></header>
+
+      <main>
+        <!-- Heading at the top of the site (but after the header)-->
+        <h1> Welcome to Jack's Car Sales! </h1>
+        <!-- Nav Bar-->
+        <nav>
+          <ul>
+          <li><a href="caravan.html">Caravan </a></li>
+          <li><a href="aboutus.html">About Us </a></li>
+          <li><a href="santafe.html">Santa Fe </a></li>
+          <li><a href="carquiz.html">Car Quiz </a></li>
+          <li> <a href="index.html"> Home </a> </li>
+          </ul>
+        </nav>
+        <!-- Nav Bar ends here -->
+        <!-- Heading before a paragraph introducing the company -->
+        <h1> About Us: <h1>
+        <p> Jack's Car Sales is a used car dealer located in Beachville, Ontario. This dealer specializes in vehicles made for the general public. This includes vans, SUVs, and crossovers.
+        We are an OHSC certified dealer. All prices include certification. Website is updated as vehicles are bought and sold. </p>
+        <hr>
+        <!-- A list of some of our vehicles, featuring images and floats -->
+        <h1> Some of our vehicles </h1>
+        <div class = cleft>
+          <p> 2015 Dodge Grand Caravan SXT: </p>
+          <img src="images/van.png" alt"Caravan" width = 350px>
+        </div>
+        <div class = sright>
+          <p> 2017 Hyundai Santa Fe Limited Turbo </p>
+          <img src="images/santafe.png" alt"Santa Fe" width = 350px>
+        </div>
+        <div class="returnF"></div>
+        <div class = "listl">
+          <!-- List ends here -->
+            <!-- Two lists, one ordered and one unordered, floating-->
+          <h2> We also have: </h2>
+          <ol>
+            <li>2014 Ford Escape</li>
+            <li>2017 Hyundai Sonata</li>
+            <li>2018 Hyundai Kona</li>
+            <li>2019 Ford F-150</li>
+          </ol>
+        </div>
+        <div class = "listr">
+          <h2> Cars we intend to sell soon: <h2>
+          <ul>
+            <li> 2014 Nissan Maxima SL </li>
+            <li> 2011 Lexus ES300 </li>
+          </ul>
+        </div>
+        <div class = "listclr"></div>
+          <!-- List ends here -->
+        <br>
+        <hr>
+        <!-- Slideshow container: Credit to W3 School-->
+        <div class="slideshow-container">
+
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="images/limo.png" style="width:100%">
+            <div class="text">Caption Text</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="images/civic.png" style="width:100%">
+            <div class="text">Caption Two</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="images/santafese.png" style="width:100%">
+            <div class="text">Caption Three</div>
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+          <!-- Map starts here -->
+        <div class = "map">
+          <h2> Where we are located </h2>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2913.6618087603265!2d-80.83139508417483!3d43.09060489664433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882c208555555555%3A0xc2c005bad2c05da6!2sJack&#39;s%20Car%20Sales!5e0!3m2!1sen!2sca!4v1664547441925!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class= "mapc"></div>
+          <!-- Map ends here -->
+    </main>
+      <!-- Footer starts here-->
+      <footer>
+      <div class = "footerf">
+        <p> Contact Us: 613-929-6864 </p>
+      </div>
+      <div class = "footerc"></div>
+      </footer>
+      <!-- Footer ends here -->
+    </div>
+  </body>
+
+
+</html>
